@@ -2,25 +2,24 @@
 
 
   var name = prompt ("What is your name?");
-  console.log
+  console.log('User name is ' + name)
   
   alert('Welcome, ' + name + '!');
 
-  var firstguess = prompt('What city was I born in?');
-  .toLowerCase
-  console.log
-  if (firstguess === 'Michigan City') {
+  var firstguess = prompt('What city was I born in?').toLowerCase();
+  
+  console.log('User answers ' + firstguess);
+  if (firstguess === 'michigan city') {
     alert ('You got it!');
   }
   else {
   prompt('Try again! What city was I born in?');
   }
 
-  var secondguess = ('Where did I go to school?');
-  .toLowerCase
-  console.log
+  var secondguess = prompt('Where did I go to school?').toLowerCase();
+  console.log('User answers ' + secondguess);
 
-  if (secondguess === 'Indiana University') {
+  if (secondguess === 'indiana university') {
     alert('Correct!')
   }
   else {

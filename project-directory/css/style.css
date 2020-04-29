@@ -1,21 +1,27 @@
 
 body {
-  background-image: url(https://unsplash.com/photos/Xaanw0s0pMk);
-    /* Will stretch to width/height of element (this via StackOverflow */
-      background-size: 100% 100%;
+  background: url("/background-images/jason-leung-Xaanw0s0pMk-unsplash.jpg") no-repeat center center fixed;  
+  /* Below was copied and pasted from a google search */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
 }
 
 h1 {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font: Cambria;
   color: white;
-  align: center;
+  font-size: 36px;
+  text-align: center;
 }
 
 p {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font: Cambria;
   color: white;
-  align: center;
+  text-align: center;
+  font-size: 24px;
 }
 
