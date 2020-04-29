@@ -1,0 +1,14 @@
+
+* {
+  background-image: url(https://unsplash.com/photos/Xaanw0s0pMk);
+    /* Will stretch to width/height of element (this via StackOverflow */
+      background-size: 100% 100%;
+}
+
+p {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font: Cambria;
+  color: white;
+  align: center;
+}
+
