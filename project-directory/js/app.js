@@ -1,4 +1,4 @@
-"usestrict"; 
+"use strict"; 
 
 
   var name = prompt ("What is your name?");
