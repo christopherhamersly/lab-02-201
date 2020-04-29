@@ -1,6 +1,6 @@
 usestrict 
 
-<script>
+
   var name = prompt ("What is your name?");
   console.log
   
@@ -26,5 +26,3 @@ usestrict
   else {
     prompt('Try again! Where did I go to school?')
   }
-
-  </script>
