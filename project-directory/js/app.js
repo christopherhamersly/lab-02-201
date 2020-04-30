@@ -6,22 +6,40 @@
   
   alert('Welcome, ' + name + '!');
 
-  var firstguess = prompt('What city was I born in?').toLowerCase();
+  var firstguess = prompt('Was I born in Seattle?').toLowerCase();
   
   console.log('User answers ' + firstguess);
-  if (firstguess === 'michigan city') {
-    alert ('You got it!');
+  if (firstguess === 'no') {
+    alert ('You got it! I was born in Indiana, just outside of Chicago.');
   }
-  else {
-  prompt('Try again! What city was I born in?');
+  else { 
+  prompt('Try again! Was I born in Seattle?');
   }
-
-  var secondguess = prompt('Where did I go to school?').toLowerCase();
+// Something needed above to display 'correct' alert if user guesses correctly the second or third times
+  var secondguess = prompt('Did I graduate college?').toLowerCase();
   console.log('User answers ' + secondguess);
 
-  if (secondguess === 'indiana university') {
-    alert('Correct!')
+  if (secondguess === 'yes') {
+    alert('That\'s right! I graduated from Indiana University.');
   }
   else {
-    prompt('Try again! Where did I go to school?')
+    prompt('Try again! Did I graduate college?');
   }
+
+  var numberanswer = 8
+  function correct() {
+    alert('You got it! Nice job!');
+  }
+  var numberguess = prompt('What number between 1 and 10 am I thinking of right now?');
+  console.log(numberguess);
+
+  if (numberguess < numberanswer); {
+    prompt('Higher!');
+  }
+  if (numberguess > numberanswer); {
+    prompt('Lower!');
+  }
+  // if (numberguess === numberanswer); {
+  //   alert('You got it! Nice job!');
+  // }
+ 
